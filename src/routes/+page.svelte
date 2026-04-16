@@ -67,11 +67,11 @@
 			<span class="band-glow"></span>
 		</div>
 
-		<div class="info-row" aria-label="Site status highlights">
-			<p>Минималистичный интерфейс</p>
-			<p>Системная типографика</p>
-			<p>Запуск скоро</p>
-		</div>
+		<ul class="info-row" aria-label="Site status highlights">
+			<li>Минималистичный интерфейс</li>
+			<li>Системная типографика</li>
+			<li>Запуск скоро</li>
+		</ul>
 	</section>
 </main>
 
@@ -166,6 +166,13 @@
 		font-weight: 700;
 		letter-spacing: -0.03em;
 		text-decoration: none;
+	}
+
+	.brand:focus-visible,
+	.contact-line a:focus-visible {
+		outline: 2px solid var(--color-accent);
+		outline-offset: 0.25rem;
+		border-radius: 0.375rem;
 	}
 
 	.brand-accent {
@@ -343,7 +350,8 @@
 		animation: rise-in var(--duration-enter) 0.48s var(--ease-smooth) both;
 	}
 
-	.info-row p {
+	.info-row li {
+		list-style: none;
 		margin: 0;
 		padding: 0.875rem 1.125rem;
 		border: 1px solid var(--color-line);
@@ -502,7 +510,7 @@
 			gap: 0.625rem;
 		}
 
-		.info-row p {
+		.info-row li {
 			width: 100%;
 			padding: 0.75rem 0.9375rem;
 			border-radius: 0.75rem;
@@ -545,6 +553,7 @@
 		.eyebrow,
 		h1,
 		.lead,
+		.contact-line,
 		.light-band,
 		.info-row {
 			animation: none;
