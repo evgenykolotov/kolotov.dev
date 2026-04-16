@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="D dot favicon">
+	<title>kolotov.dev favicon</title>
+	<text
+		x="6"
+		y="50"
+		fill="#101828"
+		font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+		font-size="56"
+		font-weight="800"
+		letter-spacing="-2"
+	>
+		D
+	</text>
+	<circle cx="57" cy="49" r="5.5" fill="#155DFC" />
+</svg>
