@@ -1,0 +1,11 @@
+.git
+.gitignore
+.idea
+.svelte-kit
+.vscode
+build
+node_modules
+test-results
+
+Dockerfile*
+README.md
