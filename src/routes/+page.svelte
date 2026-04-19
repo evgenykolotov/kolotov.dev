@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { resolve } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>kolotov.dev</title>
 	<meta
@@ -34,7 +38,7 @@
 	</div>
 
 	<header class="topbar">
-		<a class="brand" href="/" aria-label="kolotov.dev home">
+		<a class="brand" href={resolve('/')} aria-label="kolotov.dev home">
 			<span>kolotov</span><span class="brand-accent">.</span><span>dev</span>
 		</a>
 		<p class="topbar-note">launching soon</p>
