@@ -74,7 +74,7 @@
 		<ul class="info-row" aria-label="Site status highlights">
 			<li>Минималистичный интерфейс</li>
 			<li>Системная типографика</li>
-			<li>Запуск скоро</li>
+			<li>Скоро запуск</li>
 		</ul>
 	</section>
 </main>
